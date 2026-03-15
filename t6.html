@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<title>Image Gallery</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:40px 0 40px 40px; 
+    background:#f4f4f4;
+    font-family:Arial, sans-serif;
+}
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+.gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery img:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="gallery">
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSirW9GkNm4l9AZMo3o-d5QY5Y-ah8ei7EthTTLBjBtaZRygkLr">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lake_mapourika_NZ.jpeg/1280px-Lake_mapourika_NZ.jpeg">
+<img src="https://th-thumbnailer.cdn-si-edu.com/sFO_eBdDxst-BRN3kV5SEj-Utuo=/1280x960/filters:focal(960x544:961x545)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/d3/b9/d3b924af-c766-4622-b089-8978cca0319b/trees-3294681_1920.jpg">
+<img src="https://www.telegraph.co.uk/content/dam/travel/2023/02/22/TELEMMGLPICT000326370699_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?imwidth=640">
+<img src="https://earthbrotherwellness.com/wp-content/uploads/2022/04/AdobeStock_22160582-1024x685.jpeg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJpdW09QZTAFehMCMLdKidD9YIW7OTp9IStkQzDHYP5BdRS8E">
+<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQnZdU98KcPcwPDm1q-bicRL1uHKbb5gQ7pic57bcuOgaCn8v-0">
+<img src="https://t4.ftcdn.net/jpg/13/05/37/49/360_F_1305374975_oqULegZwdP7GhW8GOveo6W9gTsrSB62p.jpg">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page-level & Inline CSS Styling</title>
+
+<style>
+
+body{
+    font-family: Georgia, serif;
+    margin: 20px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.orange-text{
+    color: orange;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.inline-title{
+    font-weight: bold;
+}
+
+.blue-box{
+    background: linear-gradient(to right,#9cc7d8,#6f9fb7);
+    padding: 15px;
+    margin-top: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="title">Page-level & Inline CSS Styling</div>
+
+<p class="orange-text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia lorem eu porttitor luctus.
+Sed ac mauris vitae arcu consectetur tempor sed congue felis. Vivamus posuere scelerisque dapibus.
+Nam ultricies laoreet augue id semper. Sed eu lacus ac dolor volutpat ullamcorper at sed risus.
+Nunc sollicitudin bibendum varius.
+</p>
+
+<p>
+<span class="inline-title">Inline CSS</span>
+Etiam in ex quis eros hendrerit sollicitudin vitae iaculis neque.
+Vestibulum ornare nibh lectus, nec blandit justo efficitur in.
+Morbi et porta erat, quis tristique lorem.
+</p>
+
+<p class="blue-box" style="color:#222;">
+Donec nec lacus et felis scelerisque iaculis a vitae nibh.
+Nullam in sapien condimentum erat interdum pretium eget sit amet ex.
+Duis sed enim nisl. Cras ut lacus vitae metus posuere vestibulum.
+Proin posuere tincidunt ipsum ut aliquam.
+Aenean lacinia urna mauris, quis volutpat nulla blandit et.
+Ut fermentum <span style="color:red;">feugiat</span> dolor.
+</p>
+
+</body>
+</html>
